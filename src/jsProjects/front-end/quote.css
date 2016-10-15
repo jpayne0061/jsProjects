@@ -1,0 +1,31 @@
+﻿body{
+    background-color: #491E10;
+    text-align: center;
+}
+
+.quote-box {
+    width: 45%;
+    /*height:300px;*/
+    background-color: #B5B5B5;
+    margin-top: 10%;
+    border-radius: 2%;
+}
+
+#quote-div {
+    font-family: Verdana;
+    font-size: 2em;
+}
+
+#quote-author {
+    font-size: 1.35em;
+}
+
+#twitter-quote {
+    float: left;
+    margin: 15px;
+}
+
+button {
+    float: right;
+    margin: 15px;
+}

@@ -1,0 +1,41 @@
+﻿<div class='container'>
+    <!-- <div id='overlay'></div> -->
+    <div class='row'>
+        <!--<div class='one-third column'>-->
+        <!--</div>-->
+        <div>
+            <div><h1 id='messages'></h1></div>
+            <div id='main-div'>
+                <div id='first' class='colors'></div>
+                <div id='second' class='colors'></div>
+                <div id='third' class='colors'></div>
+                <div id='fourth' class='colors'></div>
+                <div id='control-panel'>
+                    <div class='' id='control-one'>
+                        <div id='count'><h4 id='dashes'>--</h4></div>
+                        <div id='start'></div>
+                        <div id='strict'></div>
+                        <h5 id='count-word'>COUNT</h5>
+                        <h5 id='start-word'>START</h5>
+                        <h5 id='strict-word'>STRICT</h5>
+
+                    </div>
+                    <div class='row' id='control-two'>
+                        <div>
+                            <h5 id='off'>OFF</h5>
+                            <div id='on-off'>
+                                <div id='left-side' class='button-show'></div>
+                                <div id='right-side' class='button-show'></div>
+                            </div>
+                            <h5 id='on'>ON</h5>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--<div class='one-third column'>-->
+        <!--</div>-->
+
+    </div>
+</div>

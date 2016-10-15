@@ -89,19 +89,40 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Data\calc.txt" />
+    <Content Include="Data\htmlText.txt" />
+    <Content Include="Data\quote.txt" />
+    <Content Include="front-end\calc.css" />
+    <Content Include="front-end\calc.js" />
+    <Content Include="front-end\normalize.css" />
+    <Content Include="front-end\quote.css" />
+    <Content Include="front-end\quote.js" />
+    <Content Include="front-end\script.js" />
+    <Content Include="front-end\skeleton.css" />
+    <Content Include="front-end\style.css" />
+    <Content Include="front-end\weatherApp.css" />
+    <Content Include="front-end\weatherApp.js" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ProjectController.cs" />
+    <Compile Include="Data\fileObjectRepository.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\objectFile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
+    <Content Include="Views\Project\projectPage.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Project\calcPage.cshtml" />
+    <Content Include="Views\Project\QuoteMachine.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -111,8 +132,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

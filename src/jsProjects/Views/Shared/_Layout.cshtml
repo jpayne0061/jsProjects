@@ -1,0 +1,41 @@
+﻿@model jsProjects.Models.objectFile
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>@Model.title</title>
+    <link rel="stylesheet" href="@Model.normalize">
+    <link rel="stylesheet" href="@Model.skeleton">
+    <link rel="stylesheet" href="@Model.style">
+    <link rel="stylesheet" href="@Model.bs">
+
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <span>@Html.ActionLink("Simon", "projectPage", new { Id = 0 })</span>
+                <span>@Html.ActionLink("Calculator", "projectPage", new { Id = 1 })</span>
+                <span>@Html.ActionLink("Quote Machine", "projectPage", new { Id = 2 })</span>
+                <a class="navbar-brand" href="#"></a>
+                <a class="navbar-brand" href="#"></a>
+                <a class="navbar-brand" href="#"></a>    
+                
+            </div>
+        </div>
+    </nav>
+
+    <div>
+       
+        @RenderBody()
+        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="@Model.script"></script>
+</body>
+</html>

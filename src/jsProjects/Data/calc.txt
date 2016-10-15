@@ -1,0 +1,43 @@
+﻿<div class='container'>
+
+    <div class='row'>
+        <div class='col-md-4'>
+
+        </div>
+        <div class='col-md-4 col-sm-12'>
+            <div id='calculator'>
+                <div id='invisible-div-for-space'></div>
+                <div id='screen'>
+
+                </div>
+                <div id='buttons'>
+                    <div class='single-button btn btn-default clear'>AC</div>
+                    <div class='single-button btn btn-default clear'>CE</div>
+                    <div class='single-button btn btn-default operator'>÷</div>
+                    <div class='single-button btn btn-default operator'>x</div>
+                    <div class='single-button btn btn-default number'>7</div>
+                    <div class='single-button btn btn-default number'>8</div>
+                    <div class='single-button btn btn-default number'>9</div>
+                    <div class='single-button btn btn-default operator'>-</div>
+                    <div class='single-button btn btn-default number'>4</div>
+                    <div class='single-button btn btn-default number'>5</div>
+                    <div class='single-button btn btn-default number'>6</div>
+                    <div class='single-button btn btn-default operator'>+</div>
+                    <div class='single-button btn btn-default number'>1</div>
+                    <div class='single-button btn btn-default number'>2</div>
+                    <div class='single-button btn btn-default number'>3</div>
+                    <div class='single-button btn btn-default' id='equals'>=</div>
+                    <div class='single-button btn btn-default number zero'>0</div>
+                    <!-- <div class='single-button btn btn-default number'>0</div> -->
+                    <div class='single-button btn btn-default number'>.</div>
+                    <!-- <div class='single-button btn btn-default'>=</div> -->
+                </div>
+            </div>
+        </div>
+        <div class='col-md-4'>
+
+        </div>
+
+
+    </div>
+</div>

@@ -1,0 +1,29 @@
+﻿#cloudy {
+  background-image: url("img/cloudy-min.jpg");
+}
+
+#rainy {
+  
+  background-image: url("img/rainOnWindow.png");
+}
+
+#sunny {
+  background-image: url("img/sky-sunny-clouds-cloudy-min.jpg");
+  
+}
+
+span#temp_c{
+  display: none;
+}
+
+div.well{
+  background-color: rgba(245, 245, 245, 0.4);
+}
+
+div.well p {
+  color: #000000;
+}
+
+#temp_div:hover {
+  background-color: rgba(130, 130, 130, 0.4);
+}

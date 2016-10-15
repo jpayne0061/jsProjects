@@ -1,0 +1,23 @@
+﻿
+<div class='container'>
+    <div class='row'>
+        <div class='col-md-4 col-sm-6'>
+
+        </div>
+        <div class='col-md-4 quote-box col-sm-6'>
+            <div id='quote-div'></div>
+            <div id='quote-author'></div>
+            <div class='row'>
+                <a href="#" id='twitter-quote'>
+                    <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+                </a>
+                <button class='btn'>Click For Quote</button>
+
+            </div>
+        </div>
+        <div class='col-md-4 col-sm-6'>
+
+        </div>
+
+    </div>
+</div>
